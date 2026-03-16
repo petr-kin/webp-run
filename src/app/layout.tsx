@@ -5,20 +5,20 @@ import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'WebP.run — Video to Animated WebP Converter',
+  title: '2WebP — Video to Animated WebP Converter',
   description: 'Convert video to lightweight animated WebP images — instantly, in your browser. No uploads. No tracking. Just fast, private WebP conversion with smart defaults.',
   keywords: ['webp', 'video converter', 'animated webp', 'gif alternative', 'web performance', 'image optimization'],
-  authors: [{ name: 'WebP.run' }],
+  authors: [{ name: '2WebP' }],
   openGraph: {
-    title: 'WebP.run — Video to Animated WebP Converter',
+    title: '2WebP — Video to Animated WebP Converter',
     description: 'Convert video to lightweight animated WebP — instantly, in your browser.',
-    url: 'https://webp.run',
-    siteName: 'WebP.run',
+    url: 'https://2webp.com',
+    siteName: '2WebP',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'WebP.run — Video to Animated WebP Converter',
+    title: '2WebP — Video to Animated WebP Converter',
     description: 'Convert video to lightweight animated WebP — instantly, in your browser.',
   },
   robots: {
