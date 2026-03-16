@@ -29,7 +29,7 @@ export default function TermsPage() {
                   Agreement to Terms
                 </h2>
                 <p className="text-text-secondary leading-relaxed">
-                  By accessing or using WebP.run, you agree to be bound by these Terms of 
+                  By accessing or using 2WebP, you agree to be bound by these Terms of 
                   Service. If you disagree with any part, you may not access the service.
                 </p>
               </section>
@@ -39,7 +39,7 @@ export default function TermsPage() {
                   Description of Service
                 </h2>
                 <p className="text-text-secondary leading-relaxed">
-                  WebP.run is a browser-based tool for converting video files to animated 
+                  2WebP is a browser-based tool for converting video files to animated 
                   WebP format. All processing occurs locally in your browser using WebAssembly 
                   technology.
                 </p>
@@ -50,7 +50,7 @@ export default function TermsPage() {
                   Use License
                 </h2>
                 <p className="text-text-secondary leading-relaxed mb-4">
-                  Permission is granted to use WebP.run for personal and commercial purposes, 
+                  Permission is granted to use 2WebP for personal and commercial purposes, 
                   subject to the following conditions:
                 </p>
                 <ul className="list-disc list-inside text-text-secondary space-y-2 ml-4">
@@ -81,8 +81,8 @@ export default function TermsPage() {
                   Intellectual Property
                 </h2>
                 <p className="text-text-secondary leading-relaxed mb-4">
-                  WebP.run and its original content, features, and functionality are owned 
-                  by WebP.run and are protected by international copyright, trademark, and 
+                  2WebP and its original content, features, and functionality are owned 
+                  by 2WebP and are protected by international copyright, trademark, and 
                   other intellectual property laws.
                 </p>
                 <p className="text-text-secondary leading-relaxed">
@@ -127,7 +127,7 @@ export default function TermsPage() {
                   Limitation of Liability
                 </h2>
                 <p className="text-text-secondary leading-relaxed">
-                  In no event shall WebP.run, its operators, or affiliates be liable for any 
+                  In no event shall 2WebP, its operators, or affiliates be liable for any 
                   indirect, incidental, special, consequential, or punitive damages, including 
                   loss of profits, data, or other intangible losses, resulting from your use 
                   of the service.
@@ -151,7 +151,7 @@ export default function TermsPage() {
                   Browser Requirements
                 </h2>
                 <p className="text-text-secondary leading-relaxed">
-                  WebP.run requires a modern browser with WebAssembly and SharedArrayBuffer 
+                  2WebP requires a modern browser with WebAssembly and SharedArrayBuffer 
                   support. We are not responsible for functionality issues in unsupported 
                   browsers or environments.
                 </p>
@@ -185,10 +185,10 @@ export default function TermsPage() {
                 <p className="text-text-secondary leading-relaxed">
                   Questions about these terms? Email us at{' '}
                   <a 
-                    href="mailto:legal@webp.run" 
+                    href="mailto:hello@2webp.com" 
                     className="text-accent hover:underline"
                   >
-                    legal@webp.run
+                    hello@2webp.com
                   </a>
                 </p>
               </section>

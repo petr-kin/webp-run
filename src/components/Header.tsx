@@ -18,7 +18,7 @@ export function Header() {
               <span className="text-bg-primary font-bold text-sm">W</span>
             </div>
             <span className="font-semibold text-text-primary group-hover:text-accent-primary transition-colors">
-              WebP.run
+              2WebP
             </span>
           </Link>
           

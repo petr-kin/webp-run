@@ -122,7 +122,7 @@ export default function ProPage() {
               </div>
               
               <h1 className="text-4xl font-bold text-text-primary mb-4">
-                Unlock the full power of WebP.run
+                Unlock the full power of 2WebP
               </h1>
               
               <p className="text-lg text-text-secondary max-w-xl mx-auto">

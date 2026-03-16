@@ -29,7 +29,7 @@ export default function PrivacyPage() {
                   Our Commitment to Privacy
                 </h2>
                 <p className="text-text-secondary leading-relaxed">
-                  WebP.run is built with privacy as a core principle. We believe your files 
+                  2WebP is built with privacy as a core principle. We believe your files 
                   are your business, not ours. This policy explains how we handle (or rather, 
                   don&apos;t handle) your data.
                 </p>
@@ -160,10 +160,10 @@ export default function PrivacyPage() {
                 <p className="text-text-secondary leading-relaxed">
                   Questions about privacy? Email us at{' '}
                   <a 
-                    href="mailto:privacy@webp.run" 
+                    href="mailto:hello@2webp.com" 
                     className="text-accent hover:underline"
                   >
-                    privacy@webp.run
+                    hello@2webp.com
                   </a>
                 </p>
               </section>

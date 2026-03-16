@@ -116,10 +116,10 @@ export function Footer() {
             <div className="w-6 h-6 rounded bg-accent-primary flex items-center justify-center">
               <span className="text-bg-primary font-bold text-xs">W</span>
             </div>
-            <span className="text-sm text-text-tertiary">WebP.run</span>
+            <span className="text-sm text-text-tertiary">2WebP</span>
           </div>
           <p className="text-sm text-text-muted">
-            © {new Date().getFullYear()} WebP.run. All rights reserved.
+            © {new Date().getFullYear()} 2WebP. All rights reserved.
           </p>
         </div>
       </div>
