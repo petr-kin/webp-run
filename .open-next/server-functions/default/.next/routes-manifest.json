@@ -1,0 +1,149 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/:path*",
+      "headers": [
+        {
+          "key": "Cross-Origin-Embedder-Policy",
+          "value": "require-corp"
+        },
+        {
+          "key": "Cross-Origin-Opener-Policy",
+          "value": "same-origin"
+        }
+      ],
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    }
+  ],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/convert",
+      "regex": "^/convert(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/convert(?:/)?$"
+    },
+    {
+      "page": "/email",
+      "regex": "^/email(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/email(?:/)?$"
+    },
+    {
+      "page": "/framer",
+      "regex": "^/framer(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/framer(?:/)?$"
+    },
+    {
+      "page": "/guides",
+      "regex": "^/guides(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/guides(?:/)?$"
+    },
+    {
+      "page": "/guides/browser-support",
+      "regex": "^/guides/browser\\-support(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/guides/browser\\-support(?:/)?$"
+    },
+    {
+      "page": "/guides/optimal-settings",
+      "regex": "^/guides/optimal\\-settings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/guides/optimal\\-settings(?:/)?$"
+    },
+    {
+      "page": "/guides/webp-vs-gif",
+      "regex": "^/guides/webp\\-vs\\-gif(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/guides/webp\\-vs\\-gif(?:/)?$"
+    },
+    {
+      "page": "/privacy",
+      "regex": "^/privacy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacy(?:/)?$"
+    },
+    {
+      "page": "/pro",
+      "regex": "^/pro(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pro(?:/)?$"
+    },
+    {
+      "page": "/shopify",
+      "regex": "^/shopify(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/shopify(?:/)?$"
+    },
+    {
+      "page": "/terms",
+      "regex": "^/terms(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terms(?:/)?$"
+    },
+    {
+      "page": "/webflow",
+      "regex": "^/webflow(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/webflow(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

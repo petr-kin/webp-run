@@ -34,10 +34,19 @@ export default function HomePage() {
               
               {/* Headline */}
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-text-primary mb-6 leading-tight">
-                Convert video to lightweight animated WebP —{' '}
-                <span className="text-accent-primary">instantly, in your browser</span>
+                Convert video to animated WebP —{' '}
+                <span className="gradient-text">instantly, in your browser</span>
               </h1>
-              
+
+              {/* Format badges */}
+              <div className="flex items-center justify-center gap-2 mb-6 flex-wrap">
+                {['MP4', 'WebM', 'MOV'].map((fmt) => (
+                  <span key={fmt} className="px-3 py-1 rounded-md bg-bg-elevated border border-border-subtle text-xs font-mono text-text-secondary">{fmt}</span>
+                ))}
+                <ArrowRight className="w-4 h-4 text-accent-primary mx-1" />
+                <span className="px-3 py-1 rounded-md bg-accent-glow border border-accent-primary/30 text-xs font-mono text-accent-primary font-bold">WebP</span>
+              </div>
+
               {/* Subheadline */}
               <p className="text-lg sm:text-xl text-text-secondary mb-10 max-w-2xl mx-auto">
                 No uploads. No tracking. Just fast, private WebP conversion with smart defaults.
@@ -120,6 +129,26 @@ export default function HomePage() {
           </div>
         </section>
         
+        {/* Social proof stats */}
+        <section className="py-16 border-y border-border-subtle">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-3 gap-8 text-center">
+              <motion.div initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
+                <div className="text-3xl sm:text-4xl font-bold gradient-text mb-1">97%</div>
+                <div className="text-sm text-text-secondary">Avg. size reduction</div>
+              </motion.div>
+              <motion.div initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }}>
+                <div className="text-3xl sm:text-4xl font-bold text-text-primary mb-1">0</div>
+                <div className="text-sm text-text-secondary">Server uploads</div>
+              </motion.div>
+              <motion.div initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.2 }}>
+                <div className="text-3xl sm:text-4xl font-bold text-text-primary mb-1">&lt;5s</div>
+                <div className="text-sm text-text-secondary">Avg. conversion time</div>
+              </motion.div>
+            </div>
+          </div>
+        </section>
+
         {/* How it works */}
         <section id="how-it-works" className="py-24">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
